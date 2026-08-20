@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyz
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Project planning / context docs (not for public repo)
+EXECUTION_PLAN.md
+context.md
+
+# uv
+uv.lock
+.uv/
+
+# Ruff
+.ruff_cache/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# Logs
+logs/
+*.log
+
+# Databases
+*.db
+*.sqlite3
+
+# Chroma vector store data (ingest locally after cloning)
+chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,10 @@
+[project]
+name = "mcp-vectorstore-server"
+version = "0.1.0"
+description = "MCP server exposing RAG search over a curated medical knowledge base"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.1.0,<2.0.0",
+    "chromadb>=0.5.5",
+    "sentence-transformers>=3.1.0",
+]
