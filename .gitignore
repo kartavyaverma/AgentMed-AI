@@ -22,7 +22,6 @@ EXECUTION_PLAN.md
 context.md
 
 # uv
-uv.lock
 .uv/
 
 # Ruff
