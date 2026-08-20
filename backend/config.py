@@ -6,8 +6,8 @@ class Settings(BaseSettings):
 
          
     groq_api_key: str
-    groq_model_large: str = "llama-3.3-70b-versatile"
-    groq_model_small: str = "llama-3.1-8b-instant"
+    groq_model_large: str = "openai/gpt-oss-120b"
+    groq_model_small: str = "openai/gpt-oss-20b"
 
         
     database_url: str
