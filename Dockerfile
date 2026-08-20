@@ -31,7 +31,7 @@ RUN cd mcp_servers/drugdata_server && uv sync --frozen --no-dev
 RUN cd mcp_servers/vectorstore_server && uv sync --frozen --no-dev
 
 # Build-time generation of the Chroma database
-RUN uv run python scripts/ingest_kb.py
+RUN uv run --project mcp_servers/vectorstore_server python scripts/ingest_kb.py
 
 # Expose the API port (default FastAPI port, overridden by PORT environment variable)
 EXPOSE 8000
