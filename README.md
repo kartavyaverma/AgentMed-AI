@@ -1,4 +1,4 @@
-﻿﻿# AgentMed AI - Multi-Agent Medical Information Chatbot
+# AgentMed AI - Multi-Agent Medical Information Chatbot
 
 AgentMed AI is a production-grade multi-agent medical information assistant built using **LangGraph, Model Context Protocol (MCP), FastAPI, and Streamlit**.
 
